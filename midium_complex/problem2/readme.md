@@ -20,3 +20,4 @@ order_date	first_visit_flag	repeat_visit_flag
 2022-01-02	2	1
 2022-01-03	1	2
 
+
