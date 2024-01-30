@@ -12,13 +12,7 @@ INSERT INTO flights (cid, fid, origin, Destination) VALUES ('1', 'f1', 'Del', 'H
 INSERT INTO flights (cid, fid, origin, Destination) VALUES ('1', 'f2', 'Hyd', 'Blr');
 INSERT INTO flights (cid, fid, origin, Destination) VALUES ('2', 'f3', 'Mum', 'Agra');
 INSERT INTO flights (cid, fid, origin, Destination) VALUES ('2', 'f4', 'Agra', 'Kol');
+INSERT INTO flights (cid, fid, origin, Destination) VALUES ('2', 'f5', 'Kol', 'Dudhondi');
 
 
-select *
-from flights
-group by cid;
 
-select f1.cid, f1.origin, f2.Destination
-from flights f1
-join flights f2
-on f1.cid = f2.cid and f1.Destination = f2.origin
