@@ -1,3 +1,5 @@
+we need to find out the count of gold mendals won by a person and person should have been only won the gold medals
+
 Input -->
 
 
