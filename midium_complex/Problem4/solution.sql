@@ -17,5 +17,5 @@ left join cte2
 on cte1.id = cte2.position_id and cte1.rn = cte2.rn
 order by cte1.groups;
 
-
+select * from job_positions;
 
