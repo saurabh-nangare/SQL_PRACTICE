@@ -29,3 +29,5 @@ Output -->
 | Thomas           | 3     |
 
 
+approach can be using subquery and filtering the records in gold column that are not present in silver and bronze column
+
