@@ -16,7 +16,8 @@ holiday_date date
 );
 delete from holidays;
 insert into holidays values
-('2022-08-11','Rakhi'),('2022-08-15','Independence day');
+('2022-08-11','Rakhi'),('2022-08-15','Independence day'),
+('2022-08-14','DummyWeekendHoliday'),('2022-08-07','DummyWeekendHoliday');
 
 select * from holidays;
 select * from tickets;
