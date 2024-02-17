@@ -1,0 +1,1 @@
+find the minimum salary in each department
