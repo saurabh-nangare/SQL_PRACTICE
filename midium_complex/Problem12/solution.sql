@@ -27,7 +27,8 @@ where e2.employee_id is null and e1.manager_id is not null  and e1.salary < 3000
 order by e1.employee_id;
 
 
-
+select *,
+sum(salary) over(order by employee_id) from employee
 
 
 
