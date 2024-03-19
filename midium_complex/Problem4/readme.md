@@ -28,21 +28,22 @@ id | title            | groups | levels | payscale | totalpost
 
 output -->>
 
-title            | groups | levels | payscale | name
-------------------+--------+--------+----------+---------------------
-General manager  | A      | l-15   | 10000    | John Smith
-Manager          | B      | l-14   | 9000     | Jane Doe
-Manager          | B      | l-14   | 9000     | Michael Brown
-Manager          | B      | l-14   | 9000     | Emily Johnson
-Manager          | B      | l-14   | 9000     | Vacant
-Manager          | B      | l-14   | 9000     | Vacant
-Asst. Manager    | C      | l-13   | 8000     | Vacant
-Asst. Manager    | C      | l-13   | 8000     | William Lee
-Asst. Manager    | C      | l-13   | 8000     | Jessica Clark
-Asst. Manager    | C      | l-13   | 8000     | Christopher Harris
-Asst. Manager    | C      | l-13   | 8000     | Olivia Wilson
-Asst. Manager    | C      | l-13   | 8000     | Daniel Martinez
-Asst. Manager    | C      | l-13   | 8000     | Sophia Miller
-Asst. Manager    | C      | l-13   | 8000     | Vacant
-Asst. Manager    | C      | l-13   | 8000     | Vacant
-Asst. Manager    | C      | l-13   | 8000     | Vacant
++------------------+--------+--------+----------+---------------------+
+| title            | groups | levels | payscale | name                |
++------------------+--------+--------+----------+---------------------+
+| General manager  | A      | l-15   | 10000    | John Smith          |
+| Manager          | B      | l-14   | 9000     | Jane Doe            |
+| Manager          | B      | l-14   | 9000     | Michael Brown       |
+| Manager          | B      | l-14   | 9000     | Emily Johnson       |
+| Manager          | B      | l-14   | 9000     | Vacant              |
+| Asst. Manager    | C      | l-13   | 8000     | Vacant              |
+| Asst. Manager    | C      | l-13   | 8000     | William Lee         |
+| Asst. Manager    | C      | l-13   | 8000     | Jessica Clark       |
+| Asst. Manager    | C      | l-13   | 8000     | Christopher Harris  |
+| Asst. Manager    | C      | l-13   | 8000     | Olivia Wilson       |
+| Asst. Manager    | C      | l-13   | 8000     | Daniel Martinez     |
+| Asst. Manager    | C      | l-13   | 8000     | Sophia Miller       |
+| Asst. Manager    | C      | l-13   | 8000     | Vacant              |
+| Asst. Manager    | C      | l-13   | 8000     | Vacant              |
+| Asst. Manager    | C      | l-13   | 8000     | Vacant              |
++------------------+--------+--------+----------+---------------------+
